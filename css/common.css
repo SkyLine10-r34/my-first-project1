@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #2b3d3b;
+    background-color: #f0f8e1;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2b3d3b;
+}
+
