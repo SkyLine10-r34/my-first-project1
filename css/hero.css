@@ -4,6 +4,10 @@
     padding: 200px 40px;
     background-color: #f0f8e1;
     min-height: 80vh;
+    background-image: url("hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-container {
