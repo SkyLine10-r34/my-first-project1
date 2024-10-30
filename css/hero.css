@@ -4,7 +4,7 @@
     padding: 200px 40px;
     background-color: #f0f8e1;
     min-height: 80vh;
-    background-image: url("hero.png");
+    background-image: url(/img/hero.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@
 .hero-text-left p,
 .hero-text-right p {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     line-height: 1.5;
 }
 
@@ -62,6 +62,7 @@
     color: #1a3d34;
     font-weight: 600;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .hero-text-right p:last-of-type {
