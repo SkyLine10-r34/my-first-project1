@@ -1,0 +1,23 @@
+document.querySelector('.prev-btn').addEventListener('click', showPrevSlide);
+document.querySelector('.next-btn').addEventListener('click', showNextSlide);
+
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel-item');
+
+function showSlide(index) {
+    slides.forEach(slide => slide.classList.remove('active'));
+    slides[index].classList.add('active');
+}
+
+function showPrevSlide() {
+    currentSlide = (currentSlide === 0) ? slides.length - 1 : currentSlide - 1;
+    showSlide(currentSlide);
+}
+
+function showNextSlide() {
+    currentSlide = (currentSlide === slides.length - 1) ? 0 : currentSlide + 1;
+    showSlide(currentSlide);
+}
+
+// Изначально показываем первый слайд
+showSlide(currentSlide);

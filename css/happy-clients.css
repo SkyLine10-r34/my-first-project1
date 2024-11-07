@@ -1,0 +1,117 @@
+.happy-clients {
+    text-align: center;
+    background-color: #FFE5D0;
+    padding: 40px;
+    color: #5E3A2C; 
+    font-family: Arial, sans-serif;   
+    margin: 0 auto;
+}
+
+.happy-clients h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: #CC8C4A;
+}
+
+.happy-clients p {
+    font-size: 1.2em;
+    color: #CC8C4A;
+    margin-bottom: 40px;
+}
+
+.hapy-clients-carousel {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.happy-clients-carousel-item {
+    display: none;
+    text-align: center;
+    color: #CC8C4A;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.happy-clients-carousel-item.active {
+    display: block;
+    opacity: 1;
+}
+
+.happy-clients-carousel-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.hapyy-clients-carousel-item h3 {
+    font-size: 1.5em;
+    color: #CC8C4A;
+}
+
+.happy-clients-carousel-item p {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #CC8C4A;
+    margin: 20px 0;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.happy-clients-carousel-item span {
+    display: block;
+    font-size: 0.9em;
+    color: #CC8C4A;
+    margin-bottom: 20px;
+}
+
+.happy-clients-carousel-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.control-btn {
+    background-color: #CC8C4A;
+    border: none;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1; /* Убедимся, что кнопки находятся над содержимым */
+}
+
+.prev-btn {
+    left: 10px; /* Расположение слева от карусели */
+}
+
+.next-btn {
+    right: 10px; /* Расположение справа от карусели */
+}
+
+.control-btn:hover {
+    background-color: #A46932;
+}
+
+.control-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #FFBE92;
+}
