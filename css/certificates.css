@@ -1,0 +1,76 @@
+.certificates {
+    display: flex;
+    align-items: center;
+    background-color: #e6e7d2; 
+    padding: 50px;
+    color: #3a5b48; 
+}
+
+.certificates-text {
+    width: 35%;
+    margin-right: 3%;
+    margin-left: 8%;
+}
+
+.certificates-text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1d4a4d;
+    margin-bottom: 25px; 
+}
+
+.certificates-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.certificates-carousel {
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-right: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    flex: 0 0 48%; 
+    margin-right: 4%;
+    transition: transform 0.5s ease;
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+}
+
+.certificate-image {
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #5a6e57;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.carousel-control.prev {
+    left: -15px;
+}
+
+.carousel-control.next {
+    right: -15px;
+}
