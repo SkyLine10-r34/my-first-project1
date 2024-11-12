@@ -1,12 +1,16 @@
 header {  
-    background-color: #F2FAD7;
+    background-color: #f0f8e1;
+    background-image: url(/img/hero.png);
+    background-size: cover;
+    background-position: top;
+    
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px ;
+    padding: 20px;
     margin-left: 140px;
     margin-right: 140px;
 }
