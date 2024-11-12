@@ -71,47 +71,6 @@
     margin-bottom: 20px;
 }
 
-.happy-clients-carousel-controls {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
 
 
-.control-btn {
-    background-color: #CC8C4A;
-    border: none;
-    font-size: 1.5em;
-    color: #FFFFFF;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background-color 0.3s ease;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1; /* Убедимся, что кнопки находятся над содержимым */
-}
 
-.prev-btn {
-    left: 10px; /* Расположение слева от карусели */
-}
-
-.next-btn {
-    right: 10px; /* Расположение справа от карусели */
-}
-
-.control-btn:hover {
-    background-color: #A46932;
-}
-
-.control-btn:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px #FFBE92;
-}
